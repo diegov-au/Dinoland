@@ -1,0 +1,39 @@
+﻿<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <ProjectGuid>{0D741181-81F5-4E06-BB2F-271EFBC9F6CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>dinoland</RootNamespace>
+    <AssemblyName>dinoland</AssemblyName>
+    <GodotProjectGeneratorVersion>1.0.0.0</GodotProjectGeneratorVersion>
+    <TargetFramework>net472</TargetFramework>
+    <!--The following properties were overriden during migration to prevent errors.
+    Enabling them may require other manual changes to the project and its files.-->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\items\box\Boxitem.cs" />
+    <Compile Include="Assets\items\destructableBrick\destructableBrick.cs" />
+    <Compile Include="Assets\items\eggs\Egg.cs" />
+    <Compile Include="Scenes\FinishFlag.cs" />
+    <Compile Include="Assets\enemies\blowfish\Fish.cs" />
+    <Compile Include="Scenes\Global.cs" />
+    <Compile Include="Assets\items\coins\Coin.cs" />
+    <Compile Include="Scenes\FallZone.cs" />
+    <Compile Include="Assets\hud\HUD.cs" />
+    <Compile Include="Modules\VirtualJoystick\VirtualJoystick.cs" />
+    <Compile Include="Modules\VirtualJoystick\JoystickHandle.cs" />
+    <Compile Include="Scenes\Level1.cs" />
+    <Compile Include="Prefab\MovingPlatform.cs" />
+    <Compile Include="Scripts\ParallaxBackground.cs" />
+    <Compile Include="Scenes\MovingClouds.cs" />
+    <Compile Include="Scenes\ScrollBackground.cs" />
+    <Compile Include="Assets\player\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\enemies\spider\Spider.cs" />
+  </ItemGroup>
+</Project>
